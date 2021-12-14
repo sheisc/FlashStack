@@ -51,5 +51,7 @@ iron@CSE:firefox-79.0$ ./mach build
 
 ## Download the VM for artifact evaluation
 
+The password is 123456
+
 https://drive.google.com/file/d/1H1BmYNbAP08QyD_Worm4RXLqWE_DnHLt/view
 
