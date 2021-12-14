@@ -6,6 +6,9 @@
 
 (1) Normal Build and Get the Function Names
 
+
+iron@CSE:~$ . ~/apps/FlashStack.sh
+
 iron@CSE:nginx-1.18.0$ CC="spa-clang -O3" ./configure --prefix=$(pwd)/bin
 
 iron@CSE:nginx-1.18.0$ make -j4 2>&1 | tee ~/nginx.build.txt
@@ -14,6 +17,7 @@ iron@CSE:nginx-1.18.0$ cat ~/nginx.build.txt | grep "###SPA_FUNCNAME###" | awk '
 
 (2) Once we get the names of the protected functions, we can reuse these names and rebuild Nginx to protect its calls from TOCTTOU attacks.
 
+iron@CSE:~$ . ~/apps/FlashStack.sh
 iron@CSE:nginx-1.18.0$ export __SPA_PROTECTED_FUNCS_PATH=/home/iron/nginx.funcnames.txt
 iron@CSE:nginx-1.18.0$ make clean
 iron@CSE:nginx-1.18.0$ make -j4
@@ -43,9 +47,7 @@ ac_add_options --prefix=$topsrcdir/install.flashstack
 ac_add_options --disable-debug-symbols
 
 
-iron@CSE:~$ cd /home/iron/Downloads/firefox-79.0.source/firefox-79.0
 iron@CSE:firefox-79.0$ . ~/apps/FlashStack.sh 
-
 iron@CSE:firefox-79.0$ ./mach build
 
 
