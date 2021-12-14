@@ -1,0 +1,7 @@
+{
+  extern "C"
+  {
+    ".BUDDY.CALL_STACK_SIZE_MASK";
+  }; 
+};
+
