@@ -1,6 +1,6 @@
 # RFG++: Practical Software-Based Parallel Shadow Stacks on x86-64
 
-
+We use LLVM 7.0 and rustc 1.43. Please set up your environment as shown in FlashStack.sh.
 
 ## How to Build Nginx
 
