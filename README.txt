@@ -2,6 +2,11 @@
 
 We use LLVM 7.0 and rustc 1.43. Please set up your environment as shown in FlashStack.sh.
 
+The MACRO in spa.h is a switch for instrumenting call instructions.
+
+// direct call / indirect call instrumented
+#define    ENABLE_GS_RSP_CALL_INSTRUMENTED
+
 ## How to Build Nginx
 
 (1) Normal Build and Get the Function Names
