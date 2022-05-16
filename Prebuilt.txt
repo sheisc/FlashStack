@@ -1,4 +1,3 @@
-# RFG++: Practical Software-Based Parallel Shadow Stacks on x86-64
 
 We use LLVM 7.0 and rustc 1.43. Please set up your environment as shown in FlashStack.sh.
 
@@ -54,11 +53,4 @@ ac_add_options --disable-debug-symbols
 
 iron@CSE:firefox-79.0$ . ~/apps/FlashStack.sh 
 iron@CSE:firefox-79.0$ ./mach build
-
-
-## Download the VM for artifact evaluation
-
-The password is 123456
-
-https://drive.google.com/file/d/1H1BmYNbAP08QyD_Worm4RXLqWE_DnHLt/view
 
