@@ -1,6 +1,5 @@
 # FlashStack
-
-## Practical Software-Based Shadow Stacks on x86-64
+Practical Software-Based Shadow Stacks on x86-64
 
 **ACM Reference Format**
 
