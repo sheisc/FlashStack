@@ -1,4 +1,22 @@
-# FlashStack: Practical Software-Based Parallel Shadow Stacks on x86-64
+# FlashStack
+
+## Practical Software-Based Shadow Stacks on x86-64
+
+**ACM Reference Format**
+
+```
+Changwei Zou, Yaoqing Gao, and Jingling Xue.  
+
+Practical Software-Based Shadow Stacks on x86-64. 
+
+ACM Transactions on Architecture and Code Optimization (TACO), Volume 19, Issue 4
+
+https://dl.acm.org/doi/10.1145/3556977
+
+```
+
+
+## 1. How to Build and Use FlashStack on Your Own Machine from Scratch
 
 ```sh
 We use LLVM 7.0 and rustc 1.43. 
@@ -8,8 +26,6 @@ The following MACRO in FlashStack/spa.h is a switch for instrumenting call instr
 // direct call / indirect call instrumented
 #define    ENABLE_GS_RSP_CALL_INSTRUMENTED
 ```
-
-## 1. How to Build and Use FlashStack on Your Own Machine from Scratch
 
 #### (1) Install Rustc and Set the Default Version to Be 1.43 
 
