@@ -13,6 +13,9 @@ https://dl.acm.org/doi/10.1145/3556977
 
 ```
 
+## Slides
+
+[Software-Base Techniques for Protecting Return Addresses](./Software-Based%20Techniques%20for%20Protecting%20Return%20Addresses.pdf)
 
 ## 1. How to Build and Use FlashStack on Your Own Machine from Scratch
 
