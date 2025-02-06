@@ -21,7 +21,7 @@ https://dl.acm.org/doi/10.1145/3556977
 
 ||
 |:-------------:|
-| <img src="./FlashStack.png" width="80%" height="80%"> |
+| <img src="./FlashStack.png" width="100%" height="100%"> |
 
 ## 1. How to Build and Use FlashStack on Your Own Machine from Scratch
 
